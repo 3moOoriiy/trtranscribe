@@ -1,31 +1,14 @@
-# 🎬 Video to Transcript App
+# YouTube Video Transcriber
 
-A simple Python application that transcribes audio/video files using OpenAI's Whisper model.
+A Python script that downloads YouTube videos and converts them to text transcripts using OpenAI's Whisper.
 
 ## Features
-- Upload a video/audio file
-- Transcribe speech to text
-- Supports Arabic and English
-- Optional: Streamlit interface for ease of use
+- Download YouTube videos as MP3
+- Convert audio to text using Whisper AI
+- Support for different Whisper model sizes
 
-## Setup
-
+## Installation
 ```bash
+git clone https://github.com/your-username/youtube-transcriber.git
+cd youtube-transcriber
 pip install -r requirements.txt
-```
-
-## Run from CLI
-
-```bash
-python main.py
-```
-
-## Run with Streamlit
-
-```bash
-streamlit run app.py
-```
-
-## Requirements
-- Python 3.8+
-- ffmpeg installed and accessible in PATH
