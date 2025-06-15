@@ -1,4 +1,3 @@
-git+https://github.com/openai/whisper.git
-torch
-ffmpeg-python
-streamlit
+pytube==15.0.0
+openai-whisper==20231106
+ffmpeg-python==0.2.0
